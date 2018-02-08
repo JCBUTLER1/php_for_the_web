@@ -14,10 +14,10 @@
            
        -->
         <?php
-            $street = "13543 Zinnia Hills Pl., Apt 89"; /* Declare a variable as a string for the street value */
+            $street = "12345 Miramar Pl., Apt 10"; /* Declare a variable as a string for the street value */
             $city = "San Diego"; /* Declare a variable as a string for the city value */
             $state = "CA"; /* Declare a variable as a string for the state value */
-            $zip = 92130; /* Declare a variable for the zip code value */           
+            $zip = 92110; /* Declare a variable for the zip code value */           
             
             /* Print to the page an HTML paragraph with the variables to form a statement using their declared values */
             print "<p>My address is:<br> 
