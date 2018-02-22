@@ -1,0 +1,45 @@
+<!doctype html>
+
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+		
+        <title>Greetings</title>
+		
+        <style type="text/css">
+			
+		</style>
+    </head>
+
+    <body>
+		<!-- When the user clicks the link of the name, the php script hello.php will GET the name from hello.html -->
+		<div>
+			
+			<p>Click a link to say hello:</p>
+			
+			<ul>
+				<li>
+					<a href="hello.php?name=Jerrodo">Jerrodo</a> 
+				</li>
+				
+				<li>
+					<a href="hello.php?name=Kemyrie">Kemyrie</a> 
+				</li>
+				
+				<li>
+					<a href="hello.php?name=Dorian">Dorian</a> 
+				</li>
+				
+				<li>
+					<a href="hello.php?name=Squishy">Squishy</a> 
+				</li>
+			</ul>
+		
+		 </div>
+		 
+    </body>
+</html>
+
+<!--This HTML page contains names that are links to a PHP response script.  The names are linked to the hello.php script because "?name" is a variable that is given the value of each person's name. $_GET is used in the PHP script to get the name value from the link in the HTML document. -->
